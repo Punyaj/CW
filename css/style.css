@@ -13,7 +13,7 @@
     box-sizing: border-box;
     outline: none; border:none;
     text-decoration: none;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     transition: .2s linear;
 }
 
@@ -129,6 +129,15 @@ body{
     border-style: solid;
   }
   
+  hr {
+    border: 0;
+    clear:both;
+    display:block;
+    margin: 5% 0;
+    width: 100%;
+    background-color:#50504a;
+    height: 0.5px;
+  }
 
 
 section{
@@ -440,7 +449,7 @@ section{
     font-size: 1.6rem;
     color:#ccc;
     padding:1rem 0;
-    text-align: justify;
+    /* text-align: justify; */
     line-height: 1.8;
 }
 
