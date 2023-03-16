@@ -680,7 +680,7 @@ section{
         padding-top: 0%;
     }
     section{
-        padding:0 5% 8rem;
+        padding:3rem 5% 5rem;
     }
     #menu-btn{
         display: inline-block;
@@ -765,6 +765,12 @@ section{
         grid-template-columns: repeat(1, minmax(15rem, 1fr));
         gap:2.5rem;
         padding: 2%;
+    }
+    .footer .credit {
+        font-size: 1.75rem;
+        color: #fff;
+        font-weight: lighter;
+        padding: 0.5rem;
     }
 
 }
