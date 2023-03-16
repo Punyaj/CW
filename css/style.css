@@ -546,7 +546,7 @@ section{
 
 .heading_background {
     color: transparent;
-    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.19);
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.361);
     position: absolute;
     display: block;
     font-size: 5.5rem;
