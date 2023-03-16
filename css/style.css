@@ -650,7 +650,9 @@ section{
 
 /* media queries  */
 @media (max-width:991px){
-
+.home{
+    min-height: 80vh;
+}
     html{
         font-size: 55%;
     }
@@ -660,7 +662,7 @@ section{
     }
 
     section{
-        padding:7rem;
+        padding:0 5% 8rem;
     }
 }
 
@@ -669,7 +671,7 @@ section{
         padding-top: 0%;
     }
     section{
-        padding:7rem;
+        padding:0 5% 8rem;
     }
     #menu-btn{
         display: inline-block;
