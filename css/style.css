@@ -434,6 +434,7 @@ section{
     font-size: 1.6rem;
     color:#ccc;
     padding:1rem 0;
+    text-align: justify;
     line-height: 1.8;
 }
 
@@ -580,6 +581,7 @@ section{
     line-height: 1.4;
     color:#ccc;
     padding:1rem 0;
+    text-align: justify;
 }
 
 .footer{
