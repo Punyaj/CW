@@ -389,6 +389,7 @@ section{
 
 .home .content{
     max-width: 60rem;
+    padding-top: 10rem;
 }
 
 .home .content h3{
@@ -659,11 +660,14 @@ section{
     }
 
     section{
-        padding:2rem;
+        padding:7rem;
     }
 }
 
 @media (max-width:768px){
+    .home .content{
+        padding-top: 0%;
+    }
 
     #menu-btn{
         display: inline-block;
