@@ -651,7 +651,7 @@ section{
 /* media queries  */
 @media (max-width:991px){
 .home{
-    min-height: 80vh;
+    min-height: 90vh;
 }
     html{
         font-size: 55%;
