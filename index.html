@@ -17,8 +17,8 @@
     
     <div id="cursor"></div>
 <div id="cursor-border"></div>
-<input type="button" value="Hover Me!" data-cursor="pointer">
-<input type="button" value=":-D" data-cursor="pointer2">
+<!-- <input type="button" value="Hover Me!" data-cursor="pointer">
+<input type="button" value=":-D" data-cursor="pointer2"> -->
 
 <!-- header section starts  -->
 
@@ -29,18 +29,25 @@
     </a>
 
     <nav class="navbar">
-        <a href="index.html">home</a>
-        <a href="about us.html">about</a>
-        <a href="#menu">Membership</a>
-        <a href="events.html">events</a>
+        <div class="dropdown"><button class="dropbtn"><a href="index.html" class="dropdowna">Home</a></button></div>
+        <div class="dropdown"><button class="dropbtn"><a  href="about us.html" class="dropdowna">About</a></button></div>
+        <div class="dropdown"><button class="dropbtn"><a href="https://docs.google.com/forms/d/e/1FAIpQLSc9EQU90bvqW6xh5xG42qqK5fLXLWbUMvtEc-94MrA3bBehFQ/viewform" class="dropdowna">Membership</a></button></div>
+          <div class="dropdown">
+            <button class="dropbtn"><a href="events.html" class="dropdowna">Events</a>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">2023</a>
+              <a href="#">2022</a>
+              <a href="#">2021</a>
+            </div>
+          </div>
         <!-- <a href="#blogs">blogs</a> -->
-        <a href="#contact">contact</a>
-        <a href="Explore.html" style="color:#d3ad7f; font-weight: bold;">Take a Space Tour</a>
-        
+        <div class="dropdown"><button class="dropbtn"><a  href="index.html" class="dropdowna">Contact</a></button></div>
+        <div class="dropdown"><button class="dropbtn" style="color:var(--main-color); font-weight: bold;"><a  href="Explore.html" class="dropdowna">Take A Space Tour</a></button></div>
     </nav>
 
     <div class="icons">
-        <div class="fas fa-search" id="search-btn"></div>
+        <!-- <div class="fas fa-search" id="search-btn"></div> -->
         <div class="fas fa-bars" id="menu-btn"></div>
     </div>
 
@@ -65,7 +72,7 @@
 
         <h3>Exploring the cosmos, inspiring the future.</h3>
         <p>Join our space club and launch your passion for the final frontier!</p>
-        <a href="#" class="btn">Join Us</a>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSc9EQU90bvqW6xh5xG42qqK5fLXLWbUMvtEc-94MrA3bBehFQ/viewform" class="btn">Join Us</a>
     </div>
 
 </section>
@@ -299,7 +306,7 @@
 
 <section class="contact" id="contact">
 
-    <h1 class="heading"> <span>contact us</span> </h1>
+    <!-- <h1 class="heading"> <span>contact us</span> </h1> -->
 
     <div class="row">
 
@@ -333,22 +340,9 @@
 <section class="footer">
 
     <div class="share">
-        <a href="#" class="fab fa-facebook-f"></a>
-        <a href="#" class="fab fa-twitter"></a>
         <a href="#" class="fab fa-instagram"></a>
         <a href="#" class="fab fa-linkedin"></a>
-        <a href="#" class="fab fa-pinterest"></a>
     </div>
-
-    <!-- <div class="links">
-        <a href="#">home</a>
-        <a href="#">about</a>
-        <a href="#">menu</a>
-        <a href="#">products</a>
-        <a href="#">review</a>
-        <a href="#">contact</a>
-        <a href="#">blogs</a>
-    </div> -->
 
     <div class="credit">created by <span>CALYPSO GCEK</span> | all rights reserved</div>
 
