@@ -668,7 +668,9 @@ section{
     .home .content{
         padding-top: 0%;
     }
-
+    section{
+        padding:7rem;
+    }
     #menu-btn{
         display: inline-block;
     }
