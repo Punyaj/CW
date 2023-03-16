@@ -650,6 +650,7 @@ section{
 
 /* media queries  */
 @media (max-width:991px){
+
 .home{
     min-height: 90vh;
 }
@@ -667,6 +668,12 @@ section{
 }
 
 @media (max-width:768px){
+    #cursor {
+    display: none;
+    }
+    #cursor-border {
+    display: none;
+    }
     .home .content{
         padding-top: 0%;
     }
