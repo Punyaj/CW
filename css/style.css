@@ -565,6 +565,12 @@ section{
     gap:2.5rem;
 }
 
+.blogs .box-container1{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(15rem, 1fr));
+    gap:2.5rem;
+}
+
 .blogs .box-container .box{
     border:var(--border);  
 }
